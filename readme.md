@@ -5,7 +5,7 @@ This is a simple counter microservice for the task management system project
 ## Launching
 
 Start the microservice by running:
-`python3 ./counter.py [port_no]`
+`python3 ./pcounter.py [port_no]`
 *Note: port_no is optional; omitting it will use the default port of 56789.*
 
 ## Requesting a point update
