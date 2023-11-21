@@ -10,7 +10,7 @@ Start the microservice by running:
 
 ## Requesting a point update
 
-Make an HTTP GET request to your local system (see above for port number) at `/calc/<status>/<pointTotal>/<points>`, where:
+Make an HTTP GET request to your local system (see above for port number) to `/calc/<status>/<pointTotal>/<points>`, where:
 
 - `status` is the completion status of the task (e.g. `"Complete"` or `"Earned"`)
 - `pointTotal` is the user's current point total as an integer
@@ -18,9 +18,9 @@ Make an HTTP GET request to your local system (see above for port number) at `/c
 
 ### Responses
 
-On success, the response will be a 200 OK with the body containing the new total score in plaintext.
-If the path is incorrect, a 404 Not Found response will be returned.
-If `pointTotal` or `points` is not a number, a 500 Internal Server Error response will be returned.
+On success, the response will be a 200 OK with the body containing the new total score in plaintext.  
+If the path is incorrect, a 404 Not Found response will be returned.  
+If `pointTotal` or `points` is not a number, a 500 Internal Server Error response will be returned.  
 
 ## UML diagram
 
